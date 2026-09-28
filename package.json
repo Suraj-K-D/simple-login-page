@@ -1,13 +1,14 @@
 {
   "name": "tailwindcss",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple Tailwind CSS Login Page",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+    "build": "tailwindcss -i ./src/input.css -o ./output.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./output.css --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Suraj-K-D",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
